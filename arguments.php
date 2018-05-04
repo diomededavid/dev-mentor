@@ -25,8 +25,31 @@ function multiplyTogether( $val1,  $val2) {
 multiplyTogether( 44, 22 );
 
 
+echo '<br>';
 
-function makeyougart( $type = "Greek", $flavour )
+function makeyougart( $flavour, $type = "Greek" )
 {
-	return "Making a bowl of $type $flavour."
+	return "Making a bowl of $type $flavour yougart.";
 }
+
+echo makeyougart( "rasberry" );
+
+
+
+//source: https://www.youtube.com/watch?v=9cJMYaxPfVw
+function hello($arr){
+	if (is_array($arr)){
+		foreach ($arr as $name){
+			echo "Hello, $name, how's it going?<br>";
+		}
+		} else {
+			echo "Hello, friends";
+		}
+}
+
+$names = [
+	'Dave',
+	'James',
+	'Mark'
+];
+hello($names);
