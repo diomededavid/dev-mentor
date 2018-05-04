@@ -38,5 +38,3 @@ $arr1 = array();
 
 
 
-	//Functions and everything that goes inside of them (arguments)
-	//Focus on what the parameters are, what is necessary and what is not
