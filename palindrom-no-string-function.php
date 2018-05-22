@@ -24,15 +24,7 @@ if ( rev('dad') ) {
 	echo 'false';
 }
 
-//Practice arrays
 
-//Shorthand Method for beyond php 5.1
-$arr1 = [];
-
-array_filter();
-
-//Legacy Method
-$arr1 = array();
 
 
 
